@@ -3,9 +3,9 @@ package ie.atu;
 import java.util.Scanner;
 
 public class Student {
-    String name;
-    String email;
-    String course;
+    private String name;
+    private String email;
+    private String course;
 
     //constructor
     public Student() {
