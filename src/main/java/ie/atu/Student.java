@@ -12,5 +12,8 @@ public class Student {
         this.course = course;
     }
 
+    public void displayInfo() {
+        System.out.println("Name: " + name + " " + "Email: " + email + " " + "Course: " + course);
+    }
 
 }
